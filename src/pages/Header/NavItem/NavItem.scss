@@ -1,0 +1,20 @@
+@import '../../../assets/colors';
+@import '../../../assets/measures';
+@import '../../../assets/styles';
+li.nav-item {
+    margin-left: auto;
+    padding: $paddingSmall;
+    a.text-color {
+        color: $textColor;
+    }
+    div {
+        height: 2px;
+        background-color: $primaryColor;
+        width: 0%;
+        @include css3-compatible(transition, all 0.2s);
+        margin: $marginNone auto;
+    }
+    div.active-link {
+        width: 100%;
+    }
+}

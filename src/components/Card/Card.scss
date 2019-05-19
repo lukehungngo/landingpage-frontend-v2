@@ -1,0 +1,29 @@
+@import '../../assets/colors';
+@import '../../assets/styles';
+@import '../../assets/measures';
+
+.card-service {
+    border-color: $whiteBoderColor;
+    padding: $paddingHuge;
+    &:hover{
+        box-shadow: $boxShadowSmall $boxShadowSmall $boxShadowSmall $boxShadowSmall $whiteBoxShadow;
+        @include css3-compatible(box-shadow, 0.1s)
+    } 
+}
+.card-img {
+    height: $cardImageHeightMedium;
+    width: $cardImageWidthMedium;
+}
+.card-text-title {
+    color: $primaryColor;
+    font-weight: $fontWeightMedium;
+    font-size: $textSmallMedium;
+    text-align: center;
+    margin-top: $marginMedium;
+}
+.card-text-content {
+    color: $textColor;
+    font-size: $textSmall;
+    text-align: center;
+    margin-top: $marginSmall;
+}

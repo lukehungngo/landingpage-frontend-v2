@@ -1,0 +1,40 @@
+@import "../../assets/colors";
+@import "../../assets/measures";  
+.btn.btn-primary {
+  background-color: $primaryColor;
+  color: $white;
+  border: $borderNone;
+  font-size: $textSmall;
+  box-shadow: $boxShadowNone $boxShadowSmall boxShadowMedium boxShadowNone $lightPrimaryColor;
+  &:hover{
+    box-shadow: none;
+  }
+  &:active{
+    box-shadow: none;
+  }
+  &:active{
+    box-shadow: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+.btn.btn-secondary{
+  background-color:$secondaryColor;
+  color: $black;
+  border: $borderNone;
+  font-size: $textSmall;
+  box-shadow: none;
+  &:hover{
+    box-shadow: none;
+  }
+  &:active{
+    box-shadow: none;
+  }
+  &:active{
+    box-shadow: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

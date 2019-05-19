@@ -1,0 +1,23 @@
+@import '../../assets/colors';
+@import '../../assets/measures';
+@import '../../assets/styles';
+nav.scroll {
+    background-color: $white;
+    position : -webkit-sticky;
+    position : fixed;
+    width: 100%;
+    top : 0;
+    z-index: $zIndexMedium;
+    transform : scale($scaleNormal);
+    box-shadow : $boxShadowNone $boxShadowSmall $boxShadowMedium $boxShadowNone $whiteBoxShadow;
+    @include css3-compatible(transition, all 0.2s);
+}
+nav.top {
+    background-color : $transparent;
+    position : relative;
+    width: 100%;
+    top : 0;
+    box-shadow : none;
+    transform : scale($scaleBiggerSmall);
+    @include css3-compatible(transition, all 0.2s);
+}

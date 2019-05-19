@@ -1,0 +1,14 @@
+@import '../../assets/colors';
+@import '../../assets/measures';
+@import '../../assets/styles';
+
+.introduction-web-text {
+    color: $textColor;
+    font-size: $textHuge;
+}
+.introduction-mobile-text{
+    color: $textColor;
+    font-size: $textLarge;
+    text-align: center;
+    margin: $marginSmall;
+}

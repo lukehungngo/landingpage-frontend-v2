@@ -1,0 +1,22 @@
+@import '../../assets/colors';
+@import '../../assets/measures';
+.main-container {
+    overflow-x: hidden;
+}
+.header-container{
+    background-color: transparent;
+}
+.white-container {
+    background-color: $backgroundWhite;
+    padding-top: $paddingHuge;
+    padding-bottom: $paddingHuge;
+    margin-top: $marginHuge;
+    margin-bottom: $marginHuge;
+}
+.lightgrey-container {
+    background-color: $backgroundLightgrey;
+    padding-top: $paddingHuge;
+    padding-bottom: $paddingHuge;
+    margin-top: $marginHuge;
+    margin-bottom: $marginHuge;
+}

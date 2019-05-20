@@ -21,3 +21,7 @@ nav.top {
     transform : scale($scaleBiggerSmall);
     @include css3-compatible(transition, all 0.2s);
 }
+.collapse {
+    height: 100%;
+    padding-right: $paddingSmall;
+}

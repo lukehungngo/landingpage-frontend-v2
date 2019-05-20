@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import { NavItem } from "reactstrap"
-import { Link } from "react-scroll"
-import "./NavItem.scss"
+import React, { Component } from "react";
+import { NavItem } from "reactstrap";
+import { Link } from "react-scroll";
+import "./NavItem.scss";
 const defaultValue = {
   navClassName: "",
   onSetActive: () => {},
@@ -9,8 +9,8 @@ const defaultValue = {
   scrollTo: "introduction",
   offSet: -70,
   duration: 500,
-  title: "missing title",
-}
+  title: "missing title"
+};
 export default class StyledNavItem extends Component {
   render() {
     return (
@@ -30,6 +30,6 @@ export default class StyledNavItem extends Component {
         </Link>
         {!this.props.isActiveLink ? <div /> : <div className="active-link" />}
       </NavItem>
-    )
+    );
   }
 }

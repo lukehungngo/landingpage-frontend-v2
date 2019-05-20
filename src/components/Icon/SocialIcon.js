@@ -1,11 +1,11 @@
-import React, { Component } from "react"
-import "./SocialIcon.scss"
+import React, { Component } from "react";
+import "./SocialIcon.scss";
 const defaultValue = {
   // className: "btn btn-social-icon btn-google",
   iconName: "fa fa-google-plus",
   href: "http://google.com/+",
-  style: {},
-}
+  style: {}
+};
 export default class SocialIcon extends Component {
   render() {
     return (
@@ -16,6 +16,6 @@ export default class SocialIcon extends Component {
       >
         <i className={this.props.iconName || defaultValue.iconName} />
       </a>
-    )
+    );
   }
 }

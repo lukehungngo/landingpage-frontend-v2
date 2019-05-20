@@ -1,13 +1,13 @@
-import React, { Component } from "react"
-import "./Card.scss"
-import { Card } from "reactstrap"
+import React, { Component } from "react";
+import "./Card.scss";
+import { Card } from "reactstrap";
 const defaultValue = {
   image: "",
   alt: "",
   title: "",
   description: "",
-  onClick: () => {},
-}
+  onClick: () => {}
+};
 export default class StyledCard extends Component {
   render() {
     return (
@@ -28,6 +28,6 @@ export default class StyledCard extends Component {
           </span>
         </div>
       </Card>
-    )
+    );
   }
 }

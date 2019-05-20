@@ -4,5 +4,5 @@ export const Slogan = [
   "Performance",
   "With",
   "Our",
-  "Solution",
-]
+  "Solution"
+];

@@ -1,0 +1,15 @@
+@import '../../assets/colors';
+@import '../../assets/measures';
+@import '../../assets/styles';
+.whyus-intro-title {
+    color: $primaryColor;
+    font-weight: $fontWeightMedium;
+    font-size: $textSmallMedium;
+    font-weight: bold;
+    text-align: left;
+}
+.whyus-intro-description {
+    color: $textColor;
+    font-size: $textLarge;
+    text-align: left;
+}

@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import Button from "../../../components/Button/Button"
-import introductionImage from "../../../assets/Images/illu-solution-2.png"
-import "../Introduction.scss"
+import React, { Component } from "react";
+import Button from "../../../components/Button/Button";
+import introductionImage from "../../../assets/Images/illu-solution-2.png";
+import "../Introduction.scss";
 class IntroductionWeb extends Component {
   render() {
     return (
@@ -27,7 +27,7 @@ class IntroductionWeb extends Component {
           />
         </div>
       </div>
-    )
+    );
   }
 }
-export default IntroductionWeb
+export default IntroductionWeb;

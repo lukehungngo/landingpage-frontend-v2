@@ -1,6 +1,6 @@
-import React, { Component } from "react"
-import { Button } from "reactstrap"
-import "./button.scss"
+import React, { Component } from "react";
+import { Button } from "reactstrap";
+import "./button.scss";
 const defaultValue = {
   type: "primary",
   style: {
@@ -8,11 +8,11 @@ const defaultValue = {
     paddingTop: "10px",
     paddingBottom: "10px",
     paddingLeft: "18px",
-    paddingRight: "18px",
+    paddingRight: "18px"
   },
   title: "missing title",
-  onClick: () => {},
-}
+  onClick: () => {}
+};
 export default class StyledButton extends Component {
   render() {
     return (
@@ -23,6 +23,6 @@ export default class StyledButton extends Component {
       >
         {this.props.title || defaultValue.title}
       </Button>
-    )
+    );
   }
 }

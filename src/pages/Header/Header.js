@@ -63,6 +63,7 @@ export default class Header extends Component {
         const navItem = (
           <NavItem
             key={value}
+            offset={-300}
             onSetActive={() => this.toggleActiveLink(value)}
             scrollTo={value}
             onClick={this.toggleNav}

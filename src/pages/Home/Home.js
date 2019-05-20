@@ -25,7 +25,7 @@ export default class Home extends Component {
           <div className="white-container" id={sections.whyus}>
             <WhyUs />
           </div>
-          <div>
+          <div className="white-container">
             <Footer />
           </div>
         </div>

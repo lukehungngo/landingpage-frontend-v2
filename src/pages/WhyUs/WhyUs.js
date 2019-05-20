@@ -1,4 +1,5 @@
 import React from "react";
+import './WhyUs.scss'
 import _ from "lodash";
 import { TabContent} from "reactstrap";
 import { Introduction, Content } from "./constant";
@@ -60,7 +61,7 @@ export default class WhyUs extends React.Component {
       currentActiveTab: tab
     });
   };
-  renderSliderContent = () => {
+  renderSliderContent = () =>
     Content.map(item => {
       return(
         <SliderContent
@@ -68,14 +69,13 @@ export default class WhyUs extends React.Component {
           title={item.title}
           tab={item.tab}
           activeTab={this.state.activeTab}
-          onClick={this.toggleTab(item.tab)}
+          onClick={() => this.toggleTab(item.tab)}
         />
       )
     });
-  };
-  renderTab = () => {
+  renderTab = () => 
     Content.map(item => {
-      return(
+      return (
         <Tab
           key={item.title}
           title={item.title}
@@ -85,8 +85,7 @@ export default class WhyUs extends React.Component {
           alt={item.alt}
         />
       )
-    });
-  };
+  });
   render() {
     const settings = {
       infinite: true,
@@ -118,11 +117,9 @@ export default class WhyUs extends React.Component {
       ]
     };
     return (
-      <div className="container" style={{ paddingBottom: "100px" }}>
+      <div className="container whyus-container">
         <div
-          className="col"
-          style={{ paddingTop: "50px", paddingBottom: "150px" }}
-        >
+          className="col whyus-intro-container">
           <p className="whyus-intro-title">{Introduction.title}</p>
           <h1 className="whyus-big-text">{Introduction.description}</h1>
         </div>

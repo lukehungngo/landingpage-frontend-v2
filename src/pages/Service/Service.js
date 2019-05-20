@@ -25,9 +25,9 @@ export default class Service extends Component {
   renderCardSection = content =>
     defaultValue.map(item => {
       return (
-        <div className="col-12 col-md-4">
+        <div 
+          className="col-12 col-md-4">
           <Card
-            key={item.title}
             image={this.getImage(item)}
             alt={item}
             title={content[item].title}

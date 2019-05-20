@@ -2,12 +2,14 @@
 @import '../../../assets/measures';
 @import '../../../assets/styles';
 .whyus-slider-text {
-    color: $textColor;
-    font-size: $textSmallMedium;
-    font-weight: bold;
-    text-align:center;
+  color: $textColor;
+  font-size: $textSmallMedium;
+  font-weight: bold;
+  text-align:center;
   }
 .whyus-slider-text.active-tab {
-    color: $primaryColor;
-    @include css3-compatible(transition, all 0.2s);
+  color: $primaryColor;
+  @include css3-compatible(transition, all 0.2s);
+}
+.whyus-container {
 }

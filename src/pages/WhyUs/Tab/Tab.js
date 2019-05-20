@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 import { TabPane, Media } from "reactstrap";
 const defaultValue = {
-  title: "",
-  description: "",
-  tab: "",
+  title: "missing title",
+  description: "no description",
+  tab: "missing tab",
   imgSrc: "",
-  alt: ""
+  alt: "missing image"
 };
 export default class Tab extends Component {
   render() {
     return(
-      <TabPane tabId={this.props.tab || defaultValue.tab}>
+      <TabPane tabId={this.props.tab || defaultValue.tab} style={{height:"100px"}}>
         <Media>
           <div className="col-5">
             <img

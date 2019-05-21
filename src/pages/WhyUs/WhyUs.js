@@ -44,7 +44,9 @@ export default class WhyUs extends React.Component {
       }
     };
   }
-
+  componentDidMount(){
+    window.addEventListener("resize", this.updateDimensions);
+  }
   toggleTab = tab => {
     let newActiveTab = this.state.activeTab;
     _.forIn(newActiveTab, (value, key) => {
@@ -78,7 +80,7 @@ export default class WhyUs extends React.Component {
       return (
         <Tab
           key={item.title}
-          title={item.title}
+          title={item.title.slice(2)}
           description={item.description}
           tab={item.tab}
           imgSrc={item.imgSrc}

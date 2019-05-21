@@ -1,0 +1,27 @@
+@import '../../assets/colors';
+@import '../../assets/measures';
+@import '../../assets/styles';
+
+.blog-intro-title {
+    color: $primaryColor;
+    font-size: $textLarge;
+    text-align: center;
+}
+.blog-card-title {
+    color: $textColor;
+    font-size: $textSmall;
+}
+.blog-card-date {
+    color: $textColor;
+    font-size: $textVerySmall;
+}
+.blog-div {
+    height: 100%;
+}
+.blog-card {
+    padding-bottom: $paddingSmall;
+}
+.blog-card-image {
+    display: block;
+    margin: auto;
+}

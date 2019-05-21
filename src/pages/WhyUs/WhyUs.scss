@@ -14,7 +14,14 @@
     text-align: left;
 }
 .whyus-container {
-    padding-bottom: $paddingResponsive * 5;
+    @media screen and (max-width: 1024px) {
+        padding-bottom: $paddingResponsive * 1.4;
+    }
+    @media screen and (min-width: 1025px) {
+        padding-bottom: $paddingResponsive * 5;
+    }
+}
+    .whyus-container {
 }
 .whyus-intro-container {
     padding-bottom: $paddingHuge

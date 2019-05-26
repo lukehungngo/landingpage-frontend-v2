@@ -12,11 +12,10 @@ export default class Header extends Component {
       isNavOpen: false,
       nav: "nav top",
       isActiveLink: {
-        introduction: true,
+        introduction: false,
         service: false,
         whyus: false,
-        blog: false,
-        footer: false
+        followus: false,
       }
     };
   }
@@ -62,13 +61,13 @@ export default class Header extends Component {
       if (this.props.sections.hasOwnProperty(key)) {
         const navItem = (
           <NavItem
-            key={value}
+            key={value.id}
             offset={-300}
-            onSetActive={() => this.toggleActiveLink(value)}
-            scrollTo={value}
+            onSetActive={() => this.toggleActiveLink(value.id)}
+            scrollTo={value.id}
             onClick={this.toggleNav}
-            title={value.charAt(0).toUpperCase() + value.slice(1)}
-            isActiveLink={this.state.isActiveLink[value]}
+            title={value.title}
+            isActiveLink={this.state.isActiveLink[value.id]}
           />
         );
         navItems.push(navItem);

@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import Slider from "react-slick"
 import { Card, CardText, CardTitle, CardLink } from "reactstrap"
 import { Blogs } from './constant'
-import './Blog.scss'
+import './FollowUs.scss'
 const settings = {
   dots: true,
   infinite: true,
@@ -36,7 +36,7 @@ const settings = {
     },
   ],
 }
-export default class Blog extends Component {
+export default class WhyUs extends Component {
 
     renderBlog = () => {
         return (

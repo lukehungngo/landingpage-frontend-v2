@@ -17,6 +17,12 @@
     background-color: $backgroundLightgrey;
     padding-top: $paddingHuge;
     padding-bottom: $paddingHuge;
-    margin-top: $marginHuge;
-    margin-bottom: $marginHuge;
+    // margin-top: $marginHuge;
+    // margin-bottom: $marginHuge;
+}
+.white-lightgrey-container {
+    background: linear-gradient(to bottom, $backgroundWhite 50%, $backgroundLightgrey 50%);
+}
+.lightgrey-background {
+    background-color: $backgroundLightgrey;
 }

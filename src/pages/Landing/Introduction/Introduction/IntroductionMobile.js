@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Button from "../../../components/Button/Button";
-import introductionImage from "../../../assets/Images/illu-solution-2.png";
+import Button from "../../../../components/Button/Button";
+import introductionImage from "../../../../assets/Images/illu-solution-2.png";
 import "../Introduction.scss";
 class IntroductionMobile extends Component {
   render() {

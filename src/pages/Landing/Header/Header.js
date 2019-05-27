@@ -3,7 +3,7 @@ import _ from "lodash";
 import "./Header.scss";
 import { Navbar, NavbarBrand, Nav, Collapse } from "reactstrap";
 import NavItem from "./NavItem/NavItem";
-import logo from "../../assets/Images/tsf-logo.png";
+import logo from "../../../assets/Images/tsf-logo.png";
 import { animateScroll as scroll } from "react-scroll";
 export default class Header extends Component {
   constructor(props) {

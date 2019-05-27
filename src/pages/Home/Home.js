@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import "./Home.scss";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-import Introduction from "../Introduction/Introduction";
-import Service from "../Service/Service";
-import WhyUs from "../WhyUs/WhyUs";
-import FollowUs from "../FollowUs/FollowUs";
-import Email from '../Email/Email';
+import Footer from "../Landing/Footer/Footer";
+import Header from "../Landing/Header/Header";
+import Introduction from '../Landing/Introduction/Introduction'
+import Service from "../Landing/Service/Service";
+import WhyUs from "../Landing/WhyUs/WhyUs";
+import FollowUs from "../Landing/FollowUs/FollowUs";
+import Email from '../Landing/Email/Email';
 const sections = {
   introduction:
       {

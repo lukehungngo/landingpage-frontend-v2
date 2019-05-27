@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 // import ReactDOM from 'react-dom';
 import { Form, Input, FormGroup } from 'reactstrap'
-import Button from '../../components/Button/Button'
+import Button from '../../../components/Button/Button'
 import './Email.scss'
 
 export default class Email extends Component {

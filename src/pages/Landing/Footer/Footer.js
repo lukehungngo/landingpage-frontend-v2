@@ -1,6 +1,6 @@
 import React from "react";
 import "./footer.scss";
-import SocialIcon from "../../components/Icon/SocialIcon";
+import SocialIcon from "../../../components/Icon/SocialIcon";
 const defaultValue = {
   mailto: "mailto:tsfsolution.contact@gmail.com",
   googleplus: "http://google.com/+",

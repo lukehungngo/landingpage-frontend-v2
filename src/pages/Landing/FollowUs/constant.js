@@ -1,5 +1,5 @@
-import medium from '../../assets/Images/blog-medium-logo.png'
-import github from '../../assets/Images/blog-github-logo.png'
+import medium from '../../../assets/Images/blog-medium-logo.png'
+import github from '../../../assets/Images/blog-github-logo.png'
 export const Blogs = [
         {
           "src": medium,

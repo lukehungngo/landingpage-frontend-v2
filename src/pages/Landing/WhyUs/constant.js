@@ -1,8 +1,8 @@
-import analysis from "../../assets/Images/illu-analysis.png";
-import design from "../../assets/Images/illu-teamwork.png";
-import development from "../../assets/Images/illu-dev.png";
-import release from "../../assets/Images/illu-boostup.png";
-import maintain from "../../assets/Images/illu-socialmedia.png";
+import analysis from "../../../assets/Images/illu-analysis.png";
+import design from "../../../assets/Images/illu-teamwork.png";
+import development from "../../../assets/Images/illu-dev.png";
+import release from "../../../assets/Images/illu-boostup.png";
+import maintain from "../../../assets/Images/illu-socialmedia.png";
 export const Introduction = {
   title: "OUR PROCESS",
   description: "From Solid Analysis to Agile Development"

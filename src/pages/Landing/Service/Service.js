@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Card from "../../components/Card/Card";
+import Card from "../../../components/Card/Card";
 import * as constant from "./constant";
 import "./Service.scss";
-import mobileImage from "../../assets/Images/service-mobile-2.png";
-import blockchainImage from "../../assets/Images/service-blockchain-3.png";
-import webImage from "../../assets/Images/service-web-3.png";
+import mobileImage from "../../../assets/Images/service-mobile-2.png";
+import blockchainImage from "../../../assets/Images/service-blockchain-3.png";
+import webImage from "../../../assets/Images/service-web-3.png";
 const defaultValue = ["mobile", "web", "blockchain"];
 export default class Service extends Component {
   getImage = item => {

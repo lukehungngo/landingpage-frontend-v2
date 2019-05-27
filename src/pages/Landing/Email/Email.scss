@@ -1,6 +1,6 @@
-@import '../../assets/colors';
-@import '../../assets/measures';
-@import '../../assets/styles';
+@import '../../../assets/colors';
+@import '../../../assets/styles';
+@import '../../../assets/measures';
 .email-container {
     width: 58rem;
     @media screen and (min-width: 769px) {
@@ -9,7 +9,7 @@
     @media screen and (max-width: 768px) {
         height: 14rem;
     }
-    background-image: url('../../assets/Images/email-background.png');
+    background-image: url('../../../assets/Images/email-background.png');
     background-position: center center;
     background-size: cover;
     -webkit-background-size: cover;

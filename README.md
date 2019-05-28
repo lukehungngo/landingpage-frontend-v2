@@ -16,6 +16,16 @@ Source Code Structure
     + Color
     + Font
     + Measurement
-
+5. router
+- router for application
+6. store: redux store
+- index.js: export
+- reducer: combine reducer
+- saga: combine saga and export root saga
+- Divide by feature in application, each feature have:
+    + constant: contain constant, which will be used in this directory
+    + saga: saga middle ware
+    + reducer: reducer of this feature
+    + action: action creator for this feature
 SCSS
 - SCSS will be used beacuse of those ability: mixins, global variables, nesting and so on.
